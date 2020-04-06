@@ -1,0 +1,26 @@
+@import '~normalize.css/normalize.css';
+
+@font-face {
+  font-family: 'Microsoft JhengHei Modify';
+  unicode-range: U+7db0, U+78A7, U+7B75; /* ASCII (碧筵綰) */
+  font-style: normal;
+  font-weight: normal;
+  src: local(Microsoft JhengHei);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 320px;
+  font-size: 12px;
+  font-family: 'Microsoft JhengHei Modify', 'Microsoft JhengHei',
+    'Apple LiGothic Medium', 'PMingLiU', sans-serif, serif;
+  color: #000;
+  background-color: #fff;
+  letter-spacing: 0.5px;
+}
